@@ -1,0 +1,104 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    background-image: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+}
+
+#calc-body{
+    background-color: rgba(195, 190, 193, 0.82);
+    border: 1px solid black;
+    border-radius: 35px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+    flex-basis: 350px;
+    height: 500px;
+    padding: 30px 35px;
+}
+
+.countings{
+    border: 3px solid black;
+    border-radius: 13px;
+    box-shadow: 0 4px 20px rgba(35, 35, 35, 0.4);
+    font-size: 30px;
+    text-align: right;
+    padding: 15px;
+}
+
+.button-row-first{
+    display: flex;
+    justify-content: space-between;
+    margin: 13px 0;
+}
+
+.button-row-second{
+    display: flex;
+    justify-content: space-between;
+    margin: 13px 0;
+}
+
+.button-row-third{
+    display: flex;
+    justify-content: space-between;
+    margin: 13px 0;
+}
+
+.button-row-fourth{
+    display: flex;
+    justify-content: space-between;
+    margin: 13px 0;
+}
+
+.button-row-fifth{
+    display: flex;
+    justify-content: space-between;
+    margin: 13px 0;
+}
+
+.size{
+    border: 1px solid black;
+    border-radius: 8px;
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 25px;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0 3px 7px;
+}
+
+.size.symbol{
+    background-color: rgb(255, 192, 203);
+}
+
+.size.symbol:hover{
+    background-color: inherit;
+}
+
+.size:hover{
+    background-color: inherit;
+}
+
+.size:active{
+    background-color: rgb(255, 192, 203);
+}
+
+.size.double{
+    flex-basis: 46%;
+}
+
+.size.triple{
+    flex-basis: 71%;
+}
